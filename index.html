@@ -8,8 +8,9 @@
         :root { --primary: #00d2ff; --secondary: #3a7bd5; }
         body { font-family: 'Segoe UI', sans-serif; background: #0f0f0f; color: white; margin: 0; display: flex; justify-content: center; align-items: center; height: 100vh; }
         .card { background: #1a1a1a; padding: 2.5rem; border-radius: 20px; border: 1px solid #333; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.5); width: 40vw;min-width:300px;max-width:385px }
-        .profile-pic { width: 100px; height: 100px; border-radius: 50%; background: linear-gradient(45deg, var(--primary), var(--secondary)); margin-bottom: 1rem; }
+        .profile-pic { width: 100px; height: 100px; border-radius: 50%; background: linear-gradient(45deg, var(--primary), var(--secondary)); margin-bottom: 1rem; overflow:hidden; display:flex;align-items:center;justify-content:center}
         h1 { margin: 10px 0; font-size: 1.5rem; }
+        img{display:block;max-width:100%}
         .btn { display: block; background: linear-gradient(to right, var(--primary), var(--secondary)); color: white; text-decoration: none; padding: 12px; margin: 10px 0; border-radius: 8px; font-weight: bold; transition: 0.3s; }
         .btn:hover { transform: scale(1.05); filter: brightness(1.1); }
     </style>
@@ -18,17 +19,21 @@
     <div class="card">
         <div style="display: flex; justify-content: center;">
             <div class="profile-pic">
-
+                <img src="https://www.fozdoiguacu.pr.leg.br/processo-legislativo/parlamentares/paulo-debrito/@@images/image" alt="Paulo DeBrito" class="">
             </div>
         </div>
-        <h1>João da Silva</h1>
-        <p style="color: #888;">Meu cartao digital</p>
+        <h1>Paulo DeBrito</h1>
+        <p style="color: #888;">Vereador Paulo DeBrito 22022 Nossa missão é servir!</p>
         <hr style="border: 0; border-top: 1px solid #333; margin: 20px 0;">
-        <a href="#" class="btn">WhatsApp</a>
-        <a href="#" class="btn" style="background: #333;">Instagram</a>
-        <a href="#" class="btn" style="background: #333;">LinkedIn</a>
+        <a href="https://wa.me/5545991287720" target="_blank" class="btn">WhatsApp</a>
+        <a href="https://www.instagram.com/paulo.debrito22/" target='_blank'  class="btn" style="background: #333;">Instagram</a>
+        <a href="https://www.facebook.com/pauloautoescola.debrito?locale=pt_BR" target='_blank' class="btn" style="background: #333;">Facebook</a>
+        <a href="https://www.google.com/maps/@-25.5442167,-54.5869935,3a,89.9y,340.84h,89.1t/data=!3m7!1e1!3m5!1sgLddZL6-A6mW8mbkdngf1Q!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0.8952154214259735%26panoid%3DgLddZL6-A6mW8mbkdngf1Q%26yaw%3D340.83747454320803!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDIyMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+            Meu endereço
+        </a>
     </div>
 </body>
 
 </html>
+
 
